@@ -16,12 +16,13 @@ Stellen Sie sicher, dass die folgenden Abhängigkeiten installiert sind:
 ## Einrichtung
 
 ### 1. Datenpfad und API-Key
+
 - **Pfad zum Dataset:** Legen Sie den Pfad zu Ihrem Dataset (PDF-Dateien) in einer Umgebungsvariablen `DATASET_PATH` fest.
 - **OpenAI API-Key:** Setzen Sie den OpenAI API-Key in einer Umgebungsvariablen `OPENAI_API_KEY`.
 
 Beispiel für `.env` oder direkte Shell-Befehle:
 
-'''
+'''bash
 export DATASET_PATH="/pfad/zu/ihren/pdf-dokumenten"
 export OPENAI_API_KEY="Ihr-OpenAI-API-Key"
 '''
@@ -29,7 +30,8 @@ export OPENAI_API_KEY="Ihr-OpenAI-API-Key"
 ##  Installation der Abhängigkeiten
 
 Installieren Sie die notwendigen Bibliotheken mit folgendem Befehl:
-'''
+
+'''bash
 pip install -r requirements.txt
 '''
 
