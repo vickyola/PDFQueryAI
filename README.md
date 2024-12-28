@@ -53,7 +53,7 @@ Das Tool liefert prägnante Antworten basierend auf den bereitgestellten PDFs
 
 Der Aufbau von RAG-Systemen für mehrere Dokumente ist schwierig, vor allem, wenn sichergestellt werden soll, dass das LLM Antworten mit einer bestimmten Detailtiefe liefert und nicht nur eine allgemeine Zusammenfassung.
 
-### Persistenter Verctorindex (database)
+### Persistenter Vectorindex (database)
 Die vorgestellte RAG-Implementierungen stößt bei wachsenden Datenmengen an ihre Grenzen, da diese nicht mehr vollständig im Arbeitsspeicher verarbeitet werden können. Dies erfordert alternative Ansätze zur effizienten Datenhaltung und -verarbeitung. Ein Lösungsansatz ist die Auslagerung des Vektorspeichers in persistente Speichersysteme.
 
 
