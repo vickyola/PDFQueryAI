@@ -22,18 +22,17 @@ Stellen Sie sicher, dass die folgenden Abhängigkeiten installiert sind:
 
 Beispiel für `.env` oder direkte Shell-Befehle:
 
-'''
-export DATASET_PATH="/pfad/zu/ihren/pdf-dokumenten"
-export OPENAI_API_KEY="Ihr-OpenAI-API-Key"
-'''
+```
+export DATASET_PATH="/pfad/zu/ihren/pdf-dokumenten" export OPENAI_API_KEY="Ihr-OpenAI-API-Key"
+```
 
 ##  Installation der Abhängigkeiten
 
 Installieren Sie die notwendigen Bibliotheken mit folgendem Befehl:
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ## Qualitätssicherung
 
