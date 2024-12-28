@@ -58,11 +58,13 @@ Die vorgestellte RAG-Implementierungen stößt bei wachsenden Datenmengen an ihr
 
 
 ### Multi-Agent-Architektur
-Ein besonders effektiver Ansatz zur Bewältigung großer Dokumentenmengen ist eine Multi-Agent-Architektur. Dabei übernimmt ein übergeordneter Agent (Top-Agent) die Orchestrierung verschiedener spezialisierter Agenten, die als Werkzeuge für spezifische Aufgaben dienen. Diese Architektur ermöglicht es, je nach Benutzeranfrage die am besten geeignete Suchmethode auszuwählen. So können beispielsweise semantische Suchen (Vectorindex) mit Keyword Suche oder Dokumentenzusammenfassungen (Summaryindex) kombiniert werden, um bestmögliche Ergebnisse zu erzielen.
+Ein besonders effektiver Ansatz zur Bewältigung großer Dokumentenmengen ist eine Multi-Agent-Architektur. Dabei übernimmt ein übergeordneter Agent (Top-Agent) die Orchestrierung verschiedener spezialisierter Agenten, die als Werkzeuge für spezifische Aufgaben dienen. Diese Architektur ermöglicht es, je nach Benutzeranfrage die am besten geeignete Suchmethode auszuwählen. 
+
+### Indexierungsstrategien
+Es können hybride Indexierungsmethoden beispielsweise semantische Suchen (Vectorindex) mit Keyword Suche oder Dokumentenzusammenfassungen (Summaryindex) eingesetzt werden, um bestmögliche Ergebnisse zu erzielen.
 
 ### Chunking-Strategien
 Die Entwicklung ausgefeilter Methoden zur Dokumentensegmentierung ist entscheidend für die Qualität der Ergebnisse. Hierarchische Chunking-Ansätze können helfen, sowohl lokale Details als auch übergreifende Zusammenhänge zu erhalten.
-Indexierungsstrategien: Neben Vektor- und Summenindizes können auch hybride Indexierungsmethoden eingesetzt werden. Beispielsweise können BM25-basierte Volltextsuchen mit Dense Retrieval kombiniert werden, um die Vorteile beider Ansätze zu nutzen.
 
 ### Caching-Mechanismen
 
