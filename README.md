@@ -34,20 +34,6 @@ Installieren Sie die notwendigen Bibliotheken mit folgendem Befehl:
 pip install -r requirements.txt
 ```
 
-## Qualitätssicherung
-
-### Beispiel-Fragen
-
-Angenommen, Sie haben technische Datenblätter zu Leuchtmitteln im Verzeichnis gespeichert. Beispiel-Fragen könnten sein:
-
-    Frage 1: Wie viel wiegt XBO 4000 W/HS XL OFR?
-    Frage 2: Welche Leuchte eignet sich am besten für mein Heimkino?
-    Frage 3: Gebe mir alle Leuchtmittel mit mindestens 1500W und einer Lebensdauer von mehr als 3000 Stunden.
-
-### Ausgabe
-
-Das Tool liefert prägnante Antworten basierend auf den bereitgestellten PDFs
-
 
 ## Skalierung
 
